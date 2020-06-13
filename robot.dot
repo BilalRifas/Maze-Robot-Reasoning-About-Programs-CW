@@ -1,0 +1,95 @@
+digraph state {
+ graph [fontsize=12]
+rankdir=TB;
+"5" -> "2" [label = "visitedPositions", color = "firebrick"];
+"5" -> "1" [label = "visitedPositions", color = "firebrick"];
+"4" -> "1" [label = "visitedPositions", color = "firebrick"];
+"3" -> "2" [label = "visitedPositions", color = "firebrick"];
+"2" -> "2" [label = "visitedPositions", color = "firebrick"];
+"1" -> "2" [label = "visitedPositions", color = "firebrick"];
+"1" -> "1" [label = "visitedPositions", color = "firebrick"];
+"1" -> "1" [label = "positionSeq(10)", color = "sienna"];
+"1" -> "2" [label = "positionSeq(9)", color = "SlateBlue4"];
+"5" -> "1" [label = "positionSeq(8)", color = "black"];
+"5" -> "2" [label = "positionSeq(7)", color = "#efdf84"];
+"4" -> "1" [label = "positionSeq(6)", color = "#bdef6b"];
+"3" -> "2" [label = "positionSeq(5)", color = "#5863ee"];
+"5" -> "1" [label = "positionSeq(4)", color = "LightSteelBlue1"];
+"3" -> "2" [label = "positionSeq(3)", color = "gray"];
+"2" -> "2" [label = "positionSeq(2)", color = "#efdf84"];
+"1" -> "1" [label = "positionSeq(1)", color = "#bdef6b"];
+"1" -> "1" [label = "currentPosition", color = "#5863ee"];
+"West" -> "ROOT-NODE" [label = "pointing", color = "LightSteelBlue1"];
+"1" -> "5" [label = "endPos", color = "gray"];
+"5" -> "ROOT-NODE" [label = "yAxis", color = "#efdf84"];
+"4" -> "ROOT-NODE" [label = "yAxis", color = "#efdf84"];
+"3" -> "ROOT-NODE" [label = "yAxis", color = "#efdf84"];
+"2" -> "ROOT-NODE" [label = "yAxis", color = "#efdf84"];
+"1" -> "ROOT-NODE" [label = "yAxis", color = "#efdf84"];
+"7" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"6" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"5" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"4" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"3" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"2" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"1" -> "ROOT-NODE" [label = "xAxis", color = "#bdef6b"];
+"7" -> "5" [label = "maze", color = "#5863ee"];
+"7" -> "4" [label = "maze", color = "#5863ee"];
+"7" -> "3" [label = "maze", color = "#5863ee"];
+"7" -> "2" [label = "maze", color = "#5863ee"];
+"7" -> "1" [label = "maze", color = "#5863ee"];
+"6" -> "5" [label = "maze", color = "#5863ee"];
+"6" -> "4" [label = "maze", color = "#5863ee"];
+"6" -> "3" [label = "maze", color = "#5863ee"];
+"6" -> "2" [label = "maze", color = "#5863ee"];
+"6" -> "1" [label = "maze", color = "#5863ee"];
+"5" -> "5" [label = "maze", color = "#5863ee"];
+"5" -> "4" [label = "maze", color = "#5863ee"];
+"5" -> "3" [label = "maze", color = "#5863ee"];
+"5" -> "2" [label = "maze", color = "#5863ee"];
+"5" -> "1" [label = "maze", color = "#5863ee"];
+"4" -> "5" [label = "maze", color = "#5863ee"];
+"4" -> "4" [label = "maze", color = "#5863ee"];
+"4" -> "3" [label = "maze", color = "#5863ee"];
+"4" -> "2" [label = "maze", color = "#5863ee"];
+"4" -> "1" [label = "maze", color = "#5863ee"];
+"3" -> "5" [label = "maze", color = "#5863ee"];
+"3" -> "4" [label = "maze", color = "#5863ee"];
+"3" -> "3" [label = "maze", color = "#5863ee"];
+"3" -> "2" [label = "maze", color = "#5863ee"];
+"3" -> "1" [label = "maze", color = "#5863ee"];
+"2" -> "5" [label = "maze", color = "#5863ee"];
+"2" -> "4" [label = "maze", color = "#5863ee"];
+"2" -> "3" [label = "maze", color = "#5863ee"];
+"2" -> "2" [label = "maze", color = "#5863ee"];
+"2" -> "1" [label = "maze", color = "#5863ee"];
+"1" -> "5" [label = "maze", color = "#5863ee"];
+"1" -> "4" [label = "maze", color = "#5863ee"];
+"1" -> "3" [label = "maze", color = "#5863ee"];
+"1" -> "2" [label = "maze", color = "#5863ee"];
+"1" -> "1" [label = "maze", color = "#5863ee"];
+"7" -> "4" [label = "mazeWalls", color = "LightSteelBlue1"];
+"6" -> "4" [label = "mazeWalls", color = "LightSteelBlue1"];
+"6" -> "2" [label = "mazeWalls", color = "LightSteelBlue1"];
+"6" -> "1" [label = "mazeWalls", color = "LightSteelBlue1"];
+"4" -> "4" [label = "mazeWalls", color = "LightSteelBlue1"];
+"4" -> "3" [label = "mazeWalls", color = "LightSteelBlue1"];
+"4" -> "2" [label = "mazeWalls", color = "LightSteelBlue1"];
+"3" -> "3" [label = "mazeWalls", color = "LightSteelBlue1"];
+"2" -> "5" [label = "mazeWalls", color = "LightSteelBlue1"];
+"2" -> "3" [label = "mazeWalls", color = "LightSteelBlue1"];
+"2" -> "1" [label = "mazeWalls", color = "LightSteelBlue1"];
+"1" -> "3" [label = "mazeWalls", color = "LightSteelBlue1"];
+"1" -> "1" [label = "startPos", color = "gray"];
+"5" [color = "wheat3", style = "filled, solid", shape = "box"]
+"2" [color = "wheat3", style = "filled, solid", shape = "box"]
+"1" [color = "wheat3", style = "filled, solid", shape = "box"]
+"4" [color = "wheat3", style = "filled, solid", shape = "box"]
+"3" [color = "wheat3", style = "filled, solid", shape = "box"]
+"West" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"ROOT-NODE" [color = "lightblue", style = "filled, solid", shape = "diamond"]
+"7" [color = "wheat3", style = "filled, solid", shape = "box"]
+"6" [color = "wheat3", style = "filled, solid", shape = "box"]
+subgraph "cluster_DIRECTIONS" {node [style=filled,color=white]; label="DIRECTIONS"; style=filled;color=lightgrey; West; }
+subgraph "cluster_RESPONSE" {node [style=filled,color=white]; label="RESPONSE"; style=filled;color=lightgrey; }
+}
